@@ -1,9 +1,5 @@
 {
     "compilerOptions": {
-        "types": [
-            "node",
-            "electron"
-        ],
         "module": "NodeNext",
         // require strict types (null-save)
         "strict": true,
@@ -12,7 +8,11 @@
         // define where to put the generated JS
         "outDir": "../../dist-electron",
         // ignore errors from dependencies
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        // add Global types
+        "types": [
+            "../../types"
+        ]
     },
     "exclude": [
         "node_modules"
