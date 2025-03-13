@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "types": [
+            "node",
+            "electron"
+        ],
         "module": "NodeNext",
         // require strict types (null-save)
         "strict": true,

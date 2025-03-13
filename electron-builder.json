@@ -2,6 +2,7 @@
     "appId": "com.electron.tutorial",
     "files": ["dist-electron", "dist-react"],
     "icon": "./icon.png",
+    "extraResources": ["dist-electron/preload.cjs"],
     "mac": {
         "target": "dmg"
     },
